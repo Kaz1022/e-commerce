@@ -1,0 +1,2 @@
+## Notes
+E-commerce project
