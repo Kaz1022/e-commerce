@@ -8,6 +8,8 @@ import { Home, About, Products, SingleProduct, Cart, Error, Checkout, Private } 
 function App() {
   return (
     <Router>
+      <Navbar />
+      <Sidebar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="about" element={<About />} />
@@ -21,6 +23,7 @@ function App() {
         } />
         <Route path="*" element={<Error />} />
       </Routes>
+      <Footer />
     </Router>
   )
 }
